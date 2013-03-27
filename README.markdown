@@ -4,6 +4,14 @@ Snippets - Compatible with Spree 0.30+
 Admin configurable chunks of content that can be rendered in any view via the SnippetsHelper#render_snippet method.
 
 note: the 0.11 compatible version is on the 0.11-stable branch.
+      
+This version requires ckeditor ~> 4.0.2, changed 
+
+    _form.html.erb 
+
+to use
+
+    f.cktext_area
 
 Synopsis
 --------
