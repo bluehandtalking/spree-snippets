@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.name = 'spree_snippets'
-  s.version = '1.1.1'
+  s.version = '1.1.2'
   s.summary = 'Admin configurable static content for CMS control over specific sections of a view'
   #s.description = 'Add (optional) gem description here'
   s.required_ruby_version = '>= 1.8.7'
