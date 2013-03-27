@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.name = 'spree_snippets'
-  s.version = '1.1.2'
+  s.version = '1.1.3'
   s.summary = 'Admin configurable static content for CMS control over specific sections of a view'
   #s.description = 'Add (optional) gem description here'
   s.required_ruby_version = '>= 1.8.7'
@@ -18,7 +18,6 @@ Gem::Specification.new do |s|
   s.has_rdoc = true
 
   s.add_dependency 'spree_core', '>= 1.1.0'
-  s.add_dependency 'ckeditor', '~> 4.0.2'  
   s.add_development_dependency 'factory_girl'
   s.add_development_dependency 'rspec-rails', '~> 2.8.0.rc1'
   s.add_development_dependency 'sqlite3'
